@@ -1,0 +1,30 @@
+package com.company;
+import java.util.*;
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Wprowadz liczby naturalne do programu");
+        Scanner we = new Scanner(System.in);
+
+        int a = 0;
+        int b = 0;
+
+        while (b != 42) {
+
+            b = we.nextInt();
+
+            System.out.println("                         " + b);
+
+
+            while (a != 42) {
+                a = we.nextInt();
+
+                System.out.println("                         " + a);
+
+            }
+        }
+
+    }
+
+}
+//idk how to it. Program stops when 42 is not 2 times next to each other, but when 42 is just inserted 2 times (dont have to be next to each other).
